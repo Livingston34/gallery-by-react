@@ -24,6 +24,27 @@ html, body {
 
   background: #ddd;
 }
+.image-figure {
+  position: absolute;
+  width: 100px;
+  height: 140px;
+  margin: 0;
+  padding: 40px 0 0 0;
+
+  background-color: #fff;
+
+  box-sizing: border-box;
+}
+
+.figcaption {
+  text-align: center;
+}
+
+.image-title {
+  margin: 20px 0 0 0;
+  color: #a7a0a2;
+  font-size: 16px;
+}
 /* image -- end */
 
 /* nav -- start */
