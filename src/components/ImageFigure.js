@@ -10,10 +10,11 @@ export default class ImageFigure extends Component {
     }
     console.log(this.props)
     return (
-      <figure className="image-figure" style={styleObj}>
-        <img src={this.props.data.imageURL}/>
-        <figcaption className="figcaption">
-          <h2>{this.props.data.title}</h2>
+      <figure className="img-figure" style={styleObj}>
+        <img src={this.props.data.imageURL}
+             alt={this.props.data.title}/>
+        <figcaption>
+          <h2 className="img-title">{this.props.data.title}</h2>
         </figcaption>
       </figure>
     );
